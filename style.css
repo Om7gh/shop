@@ -152,7 +152,7 @@ li {
   font-size: 1.2em;
 }
 .container .box .info span {
-  color: var(--btn-color);
+  color: black;
   font-weight: 800;
   font-size: 1.2em;
 }
@@ -258,11 +258,14 @@ li {
     transform: translate(-50%, -20%);
   }
   .container .box .visit a {
-    font-size: 12px;
+    font-size: 20px;
+    
   }
   .container .box .visit button {
-    padding: 25px 70px;
-    top: 140%;
+    padding: 40px 120px;
+    top: 170%;
+    left: 50%;
+    transform: translate(-42%,-160%);
   }
   .box .my-img {
     display: block;
